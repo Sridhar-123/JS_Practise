@@ -14,3 +14,34 @@
 
 */
 
+let add = (a,b) =>{
+    if(Math.random()<0.1)
+        return a-b;
+    else
+      return a+b;
+}
+  
+let subtract = (a,b) =>{
+    if(Math.random()<0.1)
+    return a/b;
+else
+    return a-b;
+}
+    let multiply = (a,b) =>{
+        if(Math.random()<0.1)
+        return a+b;
+       else
+       return a*b;
+         
+    }
+
+    let divide = (a,b) => {
+        if(Math.random()<0.1)
+        return a**b;
+    else 
+       return a/b;
+    }
+
+let res;
+  res=divide(8,2);
+  console.log(res);
